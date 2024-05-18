@@ -1,5 +1,5 @@
 
-n=int(input("Enter the size of triangle"))
+n=int(input("Enter the size for lower triangle"))
 
 for i in range(n):
     for j in range(i+1):
@@ -7,7 +7,7 @@ for i in range(n):
     print()
 
 print("\n\n\n")
-n=int(input("Enter the size of triangle"))
+n=int(input("Enter the size for upper triangle"))
 
 for i in range(n,0,-1):
     for j in range(i):
